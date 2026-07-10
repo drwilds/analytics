@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dr. Wilds 官網首頁點擊分析 — 雙月比較報告</title>
+<title>Dr. Wilds 官網首頁點擊分析 — 週報</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <style>
@@ -92,12 +92,12 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
 <div class="header">
   <div class="header-gfx"></div>
   <div class="wrap header-inner">
-    <div class="header-eyebrow">Website Product Click Analytics · 雙月比較報告</div>
+    <div class="header-eyebrow">Website Product Click Analytics · 雙週比較報告</div>
     <h1>Dr. Wilds 官網首頁<br>產品點擊偵測分析</h1>
-    <p class="header-sub">依時間正確切分,上期 vs 本期獨立計算</p>
+    <p class="header-sub">依時間正確切分,上週 vs 本週獨立計算(本週資料截至執行當下,尚未滿一週)</p>
     <div class="period-badges">
-      <div class="badge badge-prev"><span class="badge-dot" style="background:var(--prev)"></span>上期:2026/04/07 – 05/11(2,347筆)</div>
-      <div class="badge badge-curr"><span class="badge-dot" style="background:#fff"></span>本期:2026/05/12 – 06/12(4,115筆)</div>
+      <div class="badge badge-prev"><span class="badge-dot" style="background:var(--prev)"></span>上週:2026/06/29 – 07/05(549筆)</div>
+      <div class="badge badge-curr"><span class="badge-dot" style="background:#fff"></span>本週:2026/07/06 – 07/10(376筆,截至當下)</div>
     </div>
   </div>
 </div>
@@ -107,59 +107,59 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     <div class="kpi-grid">
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--curr)"></div>
         <div class="kpi-label">總點擊筆數</div>
-        <div class="kpi-val">4,115</div>
-        <div class="kpi-compare"><span class="delta up">▲ +75.3%</span></div>
-        <div class="kpi-prev">上期:2,347</div>
+        <div class="kpi-val">376</div>
+        <div class="kpi-compare"><span class="delta down">▼ -31.5%</span></div>
+        <div class="kpi-prev">上週:549(日均值實際持平,見下方洞察)</div>
       </div>
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--blue)"></div>
         <div class="kpi-label">手機使用率</div>
-        <div class="kpi-val">82.7%</div>
-        <div class="kpi-compare"><span class="delta up">▲ +2.2pt</span></div>
-        <div class="kpi-prev">上期:80.5%</div>
+        <div class="kpi-val">74.7%</div>
+        <div class="kpi-compare"><span class="delta down">▼ -3.1pt</span></div>
+        <div class="kpi-prev">上週:77.8%</div>
       </div>
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--green)"></div>
         <div class="kpi-label">新訪客比例</div>
-        <div class="kpi-val">50.6%</div>
-        <div class="kpi-compare"><span class="delta up">▲ +1.1pt</span></div>
-        <div class="kpi-prev">上期:49.5%</div>
+        <div class="kpi-val">49.5%</div>
+        <div class="kpi-compare"><span class="delta up">▲ +3.1pt</span></div>
+        <div class="kpi-prev">上週:46.4%</div>
       </div>
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--orange)"></div>
         <div class="kpi-label">海外流量佔比</div>
-        <div class="kpi-val">10.6%</div>
-        <div class="kpi-compare"><span class="delta down">▼ -5.7pt</span></div>
-        <div class="kpi-prev">上期:16.3%</div>
+        <div class="kpi-val">8.0%</div>
+        <div class="kpi-compare"><span class="delta down">▼ -0.4pt</span></div>
+        <div class="kpi-prev">上週:8.4%</div>
       </div>
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--curr)"></div>
         <div class="kpi-label">最熱門產品</div>
-        <div class="kpi-val" style="font-size:1.1rem;padding-top:4px">Hydrobarrel</div>
-        <div class="kpi-compare"><span class="delta up">▲ +84.2%</span></div>
-        <div class="kpi-prev">461 → 849 次</div>
+        <div class="kpi-val" style="font-size:1.1rem;padding-top:4px">hydrobarrel2.0</div>
+        <div class="kpi-compare"><span class="delta down">▼ -29.5%</span></div>
+        <div class="kpi-prev">132 → 93 次</div>
       </div>
     </div>
   </div>
   <div class="section">
     <div class="eyebrow">產品點擊分析</div>
     <div class="card">
-      <h3>各產品點擊次數 — 雙月比較</h3>
-      <p class="desc">本期(5/12–6/12)vs 上期(4/7–5/11),vest / nomad / shuttle 本期無點擊記錄</p>
+      <h3>各產品點擊次數 — 雙週比較</h3>
+      <p class="desc">本週(7/6–7/10,截至執行當下共約4.7天)vs 上週(6/29–7/5,完整7天);依本週點擊數排序</p>
       <div class="legend">
-        <div class="li"><div class="ld" style="background:var(--curr)"></div>本期</div>
-        <div class="li"><div class="ld" style="background:var(--prev)"></div>上期</div>
+        <div class="li"><div class="ld" style="background:var(--curr)"></div>本週</div>
+        <div class="li"><div class="ld" style="background:var(--prev)"></div>上週</div>
       </div>
       <div class="ch340"><canvas id="clickCompare"></canvas></div>
     </div>
     <div class="card">
-      <h3>各產品平均停留時間 — 雙月比較</h3>
-      <p class="desc">停留越長代表研究意圖越強;outdoor 本期大幅下降值得關注</p>
+      <h3>各產品停留秒數中位數 — 雙週比較</h3>
+      <p class="desc">已排除空值與 &gt;1000 秒離群值;outdoor 本週停留大跌值得關注</p>
       <div class="legend">
-        <div class="li"><div class="ld" style="background:var(--curr)"></div>本期停留秒數</div>
-        <div class="li"><div class="ld" style="background:var(--prev)"></div>上期停留秒數</div>
+        <div class="li"><div class="ld" style="background:var(--curr)"></div>本週停留秒數(中位數)</div>
+        <div class="li"><div class="ld" style="background:var(--prev)"></div>上週停留秒數(中位數)</div>
       </div>
       <div class="ch300"><canvas id="stayCompare"></canvas></div>
     </div>
     <div class="card">
-      <h3>產品詳細數據總覽(含月增率)</h3>
-      <p class="desc">依本期點擊次數排序 &nbsp;·&nbsp; <span style="color:var(--muted)">手機可左右滑動查看 →</span></p>
+      <h3>產品詳細數據總覽(含週增率)</h3>
+      <p class="desc">依本週點擊次數排序 &nbsp;·&nbsp; 本週資料未滿一週,週增率僅供參考 &nbsp;·&nbsp; <span style="color:var(--muted)">手機可左右滑動查看 →</span></p>
       <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
         <table class="ptable" id="productTable" style="min-width:640px"></table>
       </div>
@@ -169,12 +169,12 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     <div class="eyebrow">流量來源 & 新舊客</div>
     <div class="grid2">
       <div class="card">
-        <h3>流量來源 — 雙月比較</h3>
-        <p class="desc">各渠道帶入點擊次數,本期直接輸入大幅成長</p>
+        <h3>流量來源 — 雙週比較</h3>
+        <p class="desc">各渠道帶入點擊次數;站內導流日均值成長,Instagram 大幅萎縮</p>
         <div class="ch300"><canvas id="sourceCompare"></canvas></div>
       </div>
       <div class="card">
-        <h3>各產品新訪客比例(本期)</h3>
+        <h3>各產品新訪客比例(本週)</h3>
         <p class="desc">紅色=新訪客,青色=熟客</p>
         <div class="legend">
           <div class="li"><div class="ld" style="background:var(--curr)"></div>新訪客</div>
@@ -188,13 +188,13 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     <div class="eyebrow">地理分布</div>
     <div class="grid2">
       <div class="card">
-        <h3>海外國家分布 — 雙月比較</h3>
-        <p class="desc">新加坡 / 香港本期絕對量略降,美國持續成長</p>
+        <h3>海外國家分布 Top 8 — 雙週比較</h3>
+        <p class="desc">韓國、香港穩居前二,美國略有成長</p>
         <div class="ch260"><canvas id="countryChart"></canvas></div>
       </div>
       <div class="card">
-        <h3>台灣城市 Top 8 — 雙月比較</h3>
-        <p class="desc">台北、台中、桃園本期成長最顯著</p>
+        <h3>台灣城市 Top 8 — 雙週比較</h3>
+        <p class="desc">台北持續居冠,新竹本週佔比明顯提升</p>
         <div class="ch260"><canvas id="cityChart"></canvas></div>
       </div>
     </div>
@@ -203,66 +203,66 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     <div class="eyebrow">裝置比例比較</div>
     <div class="grid2">
       <div class="card">
-        <h3>上期裝置比例</h3>
-        <p class="desc">4/7–5/11,共 2,347 筆</p>
+        <h3>上週裝置比例</h3>
+        <p class="desc">6/29–7/5,共 549 筆</p>
         <div class="ch200"><canvas id="devicePrev"></canvas></div>
       </div>
       <div class="card">
-        <h3>本期裝置比例</h3>
-        <p class="desc">5/12–6/12,共 4,115 筆</p>
+        <h3>本週裝置比例</h3>
+        <p class="desc">7/6–7/10,共 376 筆</p>
         <div class="ch200"><canvas id="deviceCurr"></canvas></div>
       </div>
     </div>
   </div>
   <div class="section">
-    <div class="eyebrow">本期數據洞察</div>
+    <div class="eyebrow">本週數據洞察</div>
     <div class="insight-grid">
       <div class="insight" style="--ac:var(--curr)">
-        <h4>🚀 整體流量成長 +75%(非翻倍)</h4>
+        <h4>🗓️ 本週尚未滿一週,總筆數下降屬正常現象</h4>
         <ul>
-          <li>正確數據:上期 2,347 → 本期 4,115 筆,成長 75%</li>
-          <li>非原先誤算的 172%,成長仍顯著但需重新評估</li>
-          <li>新訪客比例微升至 50.6%,拉新效果持續</li>
+          <li>本週為週一至執行當下(7/6–7/10,約4.7天),上週為完整7天</li>
+          <li>總筆數 549 → 376(-31.5%),但日均點擊 78.4 → 80.2 次/天,實際持平微增(+2.3%)</li>
+          <li>解讀本期各項增減率時,建議優先參考日均值而非總筆數</li>
         </ul>
       </div>
       <div class="insight" style="--ac:var(--curr)">
-        <h4>🔥 Hydrobarrel 持續主導,停留縮短</h4>
+        <h4>🔥 hydrobarrel2.0 持續居冠,停留回升</h4>
         <ul>
-          <li>點擊 461 → 849(+84%),穩居第一</li>
-          <li>平均停留 61.4 → 51.7 秒,下降 16%</li>
-          <li>流量大但頁面說服力下滑,需優化內容</li>
-        </ul>
-      </div>
-      <div class="insight" style="--ac:var(--green)">
-        <h4>📈 Accessories 成長最強 +123%</h4>
-        <ul>
-          <li>點擊 69 → 154,成長率為全站最高</li>
-          <li>平均停留仍有 217 秒,研究意圖強</li>
-          <li>可能受集資活動帶動,需把握加購機會</li>
+          <li>點擊 132 → 93,仍穩居第一(佔本週24.7%)</li>
+          <li>停留中位數 12 → 13 秒,微幅回升 +8.3%</li>
+          <li>日均點擊約19.8次,與上週18.9次相比實際成長</li>
         </ul>
       </div>
       <div class="insight" style="--ac:var(--orange)">
-        <h4>⚠️ Outdoor 停留崩跌 -91%</h4>
+        <h4>⚠️ Outdoor 停留中位數驟降 -39%</h4>
         <ul>
-          <li>停留從 436.9 → 37.1 秒,幾乎歸零</li>
-          <li>點擊反而成長 +101%(121 → 243)</li>
-          <li>高流量 + 極低停留 = 廣告受眾錯配或頁面異常,需立即排查</li>
-        </ul>
-      </div>
-      <div class="insight" style="--ac:var(--blue)">
-        <h4>🌏 海外佔比降低,但美國持續成長</h4>
-        <ul>
-          <li>SG 127→104、HK 117→93,絕對量略降</li>
-          <li>海外佔比從 16.3% 降至 10.6%,本土流量成長更快</li>
-          <li>美國 35→41、日本 20→25,持續穩定成長</li>
+          <li>點擊 27 → 26 幾乎持平(-3.7%)</li>
+          <li>停留中位數卻從 14.0 → 8.5 秒,大跌 39.3%</li>
+          <li>點擊穩定但停留大跌,建議排查頁面內容或廣告受眾是否錯配</li>
         </ul>
       </div>
       <div class="insight" style="--ac:var(--purple)">
-        <h4>📲 直接輸入流量大幅成長 +129%</h4>
+        <h4>📉 Instagram 流量大幅萎縮</h4>
         <ul>
-          <li>直接輸入 429 → 981(+129%),成長最快的渠道</li>
-          <li>代表品牌認知度大幅提升,熟悉品牌的用戶增加</li>
-          <li>Instagram +126%(94→212)也顯著成長</li>
+          <li>上週12筆(日均1.7次)驟降至本週僅1筆(日均0.2次)</li>
+          <li>以日均值計算跌幅逾87%,是本週最劇烈的來源異常訊號</li>
+          <li>建議檢查 IG 貼文/限動連結、廣告投放是否中斷</li>
+        </ul>
+      </div>
+      <div class="insight" style="--ac:var(--green)">
+        <h4>🟢 站內導流(dr-wilds)日均值成長 +35%</h4>
+        <ul>
+          <li>本週102筆 vs 上週113筆,總數略降但期間較短</li>
+          <li>換算日均值:21.8 → 16.1 次/天,實際成長約35%</li>
+          <li>顯示品牌頁面間跳轉、導購動線活躍度提升</li>
+        </ul>
+      </div>
+      <div class="insight" style="--ac:var(--blue)">
+        <h4>📲 新訪客比例上升,LINE 來源幾乎全為新客</h4>
+        <ul>
+          <li>新訪客比例 46.4% → 49.5%(+3.1pt),拉新效果提升</li>
+          <li>LINE 分類新訪客佔比高達 88.1%,推測與 LINE 官方帳號推播帶新客有關</li>
+          <li>手機使用率微降至 74.7%(-3.1pt),電腦佔比小幅回升</li>
         </ul>
       </div>
     </div>
@@ -271,100 +271,100 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     <div class="eyebrow">銷售建議</div>
     <div class="reco-grid">
       <div class="reco">
-        <div class="reco-head" style="background:#FEE2E2">🟠 緊急:排查 Outdoor 頁面異常</div>
+        <div class="reco-head" style="background:#FEE2E2">🟠 緊急:排查 Outdoor 頁面停留驟降</div>
         <div class="reco-body">
-          停留從 436 秒暴跌至 37 秒(-91%),但點擊量反而翻倍,這是最反常的訊號。
+          停留中位數從 14 秒跌至 8.5 秒(-39%),但點擊量幾乎持平,代表用戶進站後很快離開。
           <div class="copybox">
-            ✦ 立即檢查 Outdoor 頁面是否內容缺失或跑版<br>
-            ✦ 確認廣告導流受眾設定是否跑偏<br>
-            ✦ 比對上期與本期素材差異
+            ✦ 檢查 Outdoor 頁面近期是否有內容缺失、跑版或載入異常<br>
+            ✦ 比對本週與上週的廣告受眾設定是否一致<br>
+            ✦ 抽查本週 Outdoor 點擊的裝置與來源分布,排除單一異常批次
           </div>
-          <div class="reco-note">優先級最高,流量浪費每天都在發生</div>
+          <div class="reco-note">停留驟降代表頁面說服力下滑,優先處理</div>
         </div>
       </div>
       <div class="reco">
-        <div class="reco-head" style="background:#FEE2E2">🔴 優化 Hydrobarrel 轉換漏斗</div>
+        <div class="reco-head" style="background:#FEE2E2">🔴 修復 Instagram 導流渠道</div>
         <div class="reco-body">
-          流量最高(849次)但停留持續縮短(51.7秒),頁面吸睛但說服力不足。
+          日均點擊從 1.7 次跌至 0.2 次,降幅逾八成,是本週最異常的流量訊號。
           <div class="copybox">
-            ✦ CTA 按鈕移至頁面 fold 以上<br>
-            ✦ 加入 30 秒短影片(防潑水實測、開箱)<br>
-            ✦ 加入真實 UGC 評價與庫存倒數
+            ✦ 檢查 IG 個人檔案連結、限時動態貼紙是否正常導向官網<br>
+            ✦ 確認 IG 廣告是否仍在投放、預算是否中斷<br>
+            ✦ 比對近期 IG 貼文互動量,判斷是內容疲乏還是連結失效
           </div>
-          <div class="reco-note">目標:停留突破 90 秒</div>
+          <div class="reco-note">流量渠道歸零風險需儘速排查根因</div>
         </div>
       </div>
       <div class="reco">
-        <div class="reco-head" style="background:#D1FAE5">🟢 Accessories 乘勝加購設計</div>
+        <div class="reco-head" style="background:#D1FAE5">🟢 hydrobarrel2.0 持續優化轉換</div>
         <div class="reco-body">
-          成長率 +123% 為全站最高,停留 217 秒代表高研究意圖,是最佳加購切入點。
+          流量最高(93次,佔比24.7%)且停留回升至13秒,是本週最穩定的主力產品。
           <div class="copybox">
-            ✦ 在 Hydrobarrel / Backpack 頁面加入配件推薦區塊<br>
-            ✦ 設計「主包 + 配件」組合方案<br>
-            ✦ 強化「搭哪款最對味」的情境視覺
+            ✦ 持續追蹤停留秒數變化,確認內容優化是否有效<br>
+            ✦ 在頁面加入真實使用情境照片或短影片強化說服力<br>
+            ✦ 針對高流量頁面測試 CTA 位置與文案
           </div>
-          <div class="reco-note">加購設計可直接提升客單價</div>
+          <div class="reco-note">目標:停留中位數穩定站上15秒以上</div>
         </div>
       </div>
       <div class="reco">
-        <div class="reco-head" style="background:#D1FAE5">🟢 Smallbag 高停留轉換推一把</div>
+        <div class="reco-head" style="background:#D1FAE5">🟢 把握站內導流成長動能</div>
         <div class="reco-body">
-          停留 278 秒仍是全站前三,用戶認真研究但需要臨門一腳。
+          站內導流(dr-wilds)日均值成長約35%,顯示現有頁面間動線設計正在發揮作用。
           <div class="copybox">
-            ✦ 加入「限時優惠倒數」或「X 人正在看」<br>
-            ✦ 強化小包感 vs 大收納的對比視覺<br>
-            ✦ 加入尺寸對照實拍(手持比例感)
+            ✦ 檢視首頁與熱門產品頁的內部連結配置,強化高效動線<br>
+            ✦ 在導流較強的頁面加入關聯產品推薦區塊<br>
+            ✦ 持續追蹤此渠道日均值,確認成長是否延續
           </div>
-          <div class="reco-note">研究意圖強,只差購買觸發點</div>
+          <div class="reco-note">內部動線優化成本低、見效快</div>
         </div>
       </div>
       <div class="reco">
-        <div class="reco-head" style="background:#DBEAFE">🔵 直接輸入流量代表品牌力提升</div>
+        <div class="reco-head" style="background:#DBEAFE">🔵 善用 LINE 推播帶動新客轉換</div>
         <div class="reco-body">
-          直接輸入 +129% 是最快成長渠道,代表品牌已建立一定認知度,回訪意願高。
+          LINE 來源新訪客佔比高達 88.1%,是本週拉新效率最高的渠道。
           <div class="copybox">
-            ✦ 加強 LINE 官方帳號推播維繫熟客<br>
-            ✦ 設計會員專屬優惠提升回購率<br>
-            ✦ 考慮推出集點或回饋機制留住直接訪客
+            ✦ 為 LINE 新客設計專屬首購優惠或歡迎流程<br>
+            ✦ 加強 LINE 官方帳號推播頻率與內容吸引力<br>
+            ✦ 追蹤 LINE 導入新客的後續回購率,評估渠道長期價值
           </div>
-          <div class="reco-note">直接流量是品牌最珍貴的資產</div>
+          <div class="reco-note">新客佔比最高的渠道,值得加碼經營</div>
         </div>
       </div>
       <div class="reco">
-        <div class="reco-head" style="background:#FEF3C7">🟡 海外市場:維持 SG/HK 並開發美國</div>
+        <div class="reco-head" style="background:#FEF3C7">🟡 週報解讀:以日均值為準</div>
         <div class="reco-body">
-          SG/HK 本期略降,需維持投放;美國穩定成長值得加碼測試。
+          本週報告執行於週五,本週資料僅涵蓋4.7天,與完整7天的上週直接比較會低估表現。
           <div class="copybox">
-            ✦ 確保英文版購物流程順暢<br>
-            ✦ 針對 SG/HK 推 Hydrobarrel 英文廣告<br>
-            ✦ 美國可小額測試 Meta 廣告,評估 ROAS
+            ✦ 後續週報建議統一於週一執行,確保上週與本週皆為完整7天<br>
+            ✦ 若需週中提前查看,請以日均值(總筆數 ÷ 已過天數)判讀趨勢<br>
+            ✦ 總點擊筆數 -31.5% 的表面數字不代表流量下滑,日均值實際持平微增
           </div>
-          <div class="reco-note">越南 4→13 次,東南亞有潛力</div>
+          <div class="reco-note">避免因統計口徑造成誤判</div>
         </div>
       </div>
     </div>
   </div>
 </div>
-<footer>DR. WILDS · 官網首頁點擊分析 · 上期 2026/04/07–05/11 | 本期 2026/05/12–06/12</footer>
+<footer>DR. WILDS · 官網首頁點擊分析 · 上週 2026/06/29–07/05 | 本週 2026/07/06–07/10</footer>
 <script>
 const C={curr:'#FF4D6D',prev:'#ADB5BD',blue:'#3A86FF',cyan:'#00C9FF',green:'#06D6A0',
   yellow:'#FFD166',orange:'#FF6B35',purple:'#845EC2',pink:'#FF9EAA',teal:'#0CB0A9',
   lime:'#AACC00',indigo:'#5C7CFA'};
-const MULTI=[C.curr,C.blue,C.green,C.yellow,C.orange,C.purple,C.cyan,C.teal];
-const products=['hydrobarrel2.0','backpack','smallbag','rider','DDAY','lighttravel','outdoor','accessories'];
+const MULTI=[C.curr,C.blue,C.green,C.yellow,C.orange,C.purple,C.cyan,C.teal,C.lime];
+const products=['hydrobarrel2.0','backpack','DDAY','LINE','smallbag','rider','outdoor','lighttravel','accessories'];
 const prevData={
-  clicks:[461,377,304,291,287,179,121,69],
-  stays:[61.4,132.1,343.7,131.6,61.8,44.8,436.9,365.6],
-  newPct:[43.4,55.2,54.9,45.4,42.5,35.2,52.9,37.7]
+  clicks:[132,94,94,43,58,43,27,36,22],
+  stays:[12.0,10.0,9.0,8.5,17.0,15.0,14.0,20.0,10.0],
+  newPct:[37.1,45.7,44.7,83.7,56.9,25.6,81.5,36.1,27.3]
 };
 const currData={
-  clicks:[849,600,520,476,462,295,243,154],
-  stays:[51.7,112.7,278.6,86.7,89.8,62.6,37.1,217.7],
-  newPct:[43.0,47.2,51.2,50.0,35.5,41.4,49.0,25.3]
+  clicks:[93,69,46,42,35,28,26,25,12],
+  stays:[13.0,11.0,10.0,7.0,20.0,15.5,8.5,14.0,9.0],
+  newPct:[39.8,47.8,43.5,88.1,48.6,46.4,61.5,32.0,41.7]
 };
 const thead=`<thead><tr>
-  <th>產品</th><th>本期點擊</th><th>上期點擊</th><th>月增率</th>
-  <th>本期停留</th><th>停留變化</th><th>新訪客%</th><th>點擊佔比</th>
+  <th>產品</th><th>本週點擊</th><th>上週點擊</th><th>週增率</th>
+  <th>本週停留(中位數)</th><th>停留變化</th><th>新訪客%</th><th>點擊佔比</th>
 </tr></thead>`;
 const total=currData.clicks.reduce((a,b)=>a+b,0);
 const tbody=products.map((p,i)=>{
@@ -374,43 +374,43 @@ const tbody=products.map((p,i)=>{
   const bw=Math.round(currData.clicks[i]/currData.clicks[0]*100);
   const dc=d>0?C.green:C.curr;
   const sc=sd>0?C.green:C.curr;
-  const stc=currData.stays[i]>200?C.green:currData.stays[i]>100?C.yellow:C.curr;
+  const stc=currData.stays[i]>20?C.green:currData.stays[i]>10?C.yellow:C.curr;
   return `<tr>
     <td style="font-weight:500;color:#18160F">${p}</td>
     <td class="mono" style="color:#18160F;font-weight:600">${currData.clicks[i]}</td>
     <td class="mono">${prevData.clicks[i]}</td>
     <td class="mono" style="color:${dc}">${d>0?'+':''}${d}%</td>
-    <td class="mono" style="color:${stc}">${currData.stays[i].toFixed(0)}s</td>
+    <td class="mono" style="color:${stc}">${currData.stays[i].toFixed(1)}s</td>
     <td class="mono" style="color:${sc};font-size:11px">${sd>0?'+':''}${sd}%</td>
-    <td class="mono">${currData.newPct[i].toFixed(0)}%</td>
+    <td class="mono">${currData.newPct[i].toFixed(1)}%</td>
     <td><div class="ibar"><div class="itrack"><div class="ifill" style="width:${bw}%;background:${MULTI[i]}"></div></div><span class="mono" style="min-width:36px">${pct}%</span></div></td>
   </tr>`;
 }).join('');
 document.getElementById('productTable').innerHTML=thead+`<tbody>${tbody}</tbody>`;
 new Chart(document.getElementById('clickCompare'),{type:'bar',data:{labels:products,datasets:[
-  {label:'本期',data:currData.clicks,backgroundColor:MULTI,borderRadius:4,borderSkipped:false},
-  {label:'上期',data:prevData.clicks,backgroundColor:MULTI.map(c=>c+'55'),borderRadius:4,borderSkipped:false}
+  {label:'本週',data:currData.clicks,backgroundColor:MULTI,borderRadius:4,borderSkipped:false},
+  {label:'上週',data:prevData.clicks,backgroundColor:MULTI.map(c=>c+'55'),borderRadius:4,borderSkipped:false}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{
   x:{ticks:{font:{size:11},maxRotation:30},grid:{display:false}},
   y:{ticks:{font:{size:11}},grid:{color:'rgba(0,0,0,0.06)'}}
 }}});
 new Chart(document.getElementById('stayCompare'),{type:'bar',data:{labels:products,datasets:[
-  {label:'本期(秒)',data:currData.stays,backgroundColor:MULTI,borderRadius:4},
-  {label:'上期(秒)',data:prevData.stays,backgroundColor:MULTI.map(c=>c+'55'),borderRadius:4}
+  {label:'本週(秒)',data:currData.stays,backgroundColor:MULTI,borderRadius:4},
+  {label:'上週(秒)',data:prevData.stays,backgroundColor:MULTI.map(c=>c+'55'),borderRadius:4}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{
   x:{ticks:{font:{size:11},maxRotation:30},grid:{display:false}},
   y:{ticks:{font:{size:11},callback:v=>v+'s'},grid:{color:'rgba(0,0,0,0.06)'}}
 }}});
-const srcL=['Google','站內導流','直接輸入','Facebook','Instagram','其他'];
-const srcC=[C.blue,C.green,C.yellow,C.indigo,C.pink,C.prev];
+const srcL=['Google自然搜尋','站內導流','直接輸入','Facebook','其他','YouTube','Instagram'];
+const srcC=[C.blue,C.green,C.yellow,C.indigo,C.prev,C.teal,C.pink];
 new Chart(document.getElementById('sourceCompare'),{type:'bar',data:{labels:srcL,datasets:[
-  {label:'本期',data:[1268,895,981,616,212,69],backgroundColor:srcC,borderRadius:4},
-  {label:'上期',data:[763,610,429,388,94,26],backgroundColor:srcC.map(c=>c+'66'),borderRadius:4}
+  {label:'本週',data:[162,102,65,21,20,5,1],backgroundColor:srcC,borderRadius:4},
+  {label:'上週',data:[267,113,107,26,17,7,12],backgroundColor:srcC.map(c=>c+'66'),borderRadius:4}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:12,family:'Noto Sans TC'},padding:12,boxWidth:12}}},scales:{
-  x:{ticks:{font:{size:11},maxRotation:20},grid:{display:false}},
+  x:{ticks:{font:{size:10},maxRotation:25},grid:{display:false}},
   y:{ticks:{font:{size:11}},grid:{color:'rgba(0,0,0,0.06)'}}
 }}});
-const pShort=['hydro','backpack','small','rider','DDAY','light','outdoor','access'];
+const pShort=['hydro','backpack','DDAY','LINE','small','rider','outdoor','light','access'];
 new Chart(document.getElementById('newVisitor'),{type:'bar',data:{labels:pShort,datasets:[
   {label:'新訪客%',data:currData.newPct.map(v=>+v.toFixed(1)),backgroundColor:C.curr,borderRadius:0},
   {label:'熟客%',data:currData.newPct.map(v=>+(100-v).toFixed(1)),backgroundColor:C.cyan+'88',borderRadius:0}
@@ -418,26 +418,26 @@ new Chart(document.getElementById('newVisitor'),{type:'bar',data:{labels:pShort,
   x:{stacked:true,ticks:{font:{size:10},maxRotation:30},grid:{display:false}},
   y:{stacked:true,max:100,ticks:{font:{size:11},callback:v=>v+'%'},grid:{color:'rgba(0,0,0,0.06)'}}
 }}});
-const ctryL=['新加坡','香港','美國','日本','韓國','越南','澳門','馬來西亞'];
+const ctryL=['韓國','香港','美國','日本','新加坡','澳門','模里西斯','瑞典'];
 const ctryC=[C.curr,C.blue,C.green,C.yellow,C.orange,C.purple,C.cyan,C.teal];
 new Chart(document.getElementById('countryChart'),{type:'bar',data:{labels:ctryL,datasets:[
-  {label:'本期',data:[104,93,41,25,17,13,11,8],backgroundColor:ctryC,borderRadius:4},
-  {label:'上期',data:[127,117,35,20,12,4,1,2],backgroundColor:ctryC.map(c=>c+'66'),borderRadius:4}
+  {label:'本週',data:[8,6,5,4,4,1,1,1],backgroundColor:ctryC,borderRadius:4},
+  {label:'上週',data:[8,10,3,7,4,0,0,0],backgroundColor:ctryC.map(c=>c+'66'),borderRadius:4}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:10,boxWidth:10}}},scales:{
   x:{ticks:{font:{size:10}},grid:{display:false}},
   y:{ticks:{font:{size:11}},grid:{color:'rgba(0,0,0,0.06)'}}
 }}});
-const cityL=['台北','台中','新北','高雄','桃園','台南','中壢','新竹'];
+const cityL=['台北','高雄','新北','台中','新竹','桃園','台南','中壢'];
 new Chart(document.getElementById('cityChart'),{type:'bar',data:{labels:cityL,datasets:[
-  {label:'本期',data:[1164,524,396,394,210,162,117,0],backgroundColor:MULTI,borderRadius:4},
-  {label:'上期',data:[636,220,250,195,21,124,107,0],backgroundColor:MULTI.map(c=>c+'66'),borderRadius:4}
+  {label:'本週',data:[113,57,39,30,22,16,12,6],backgroundColor:MULTI,borderRadius:4},
+  {label:'上週',data:[134,55,71,51,6,66,16,18],backgroundColor:MULTI.map(c=>c+'66'),borderRadius:4}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:10,boxWidth:10}}},scales:{
   x:{ticks:{font:{size:10}},grid:{display:false}},
   y:{ticks:{font:{size:11}},grid:{color:'rgba(0,0,0,0.06)'}}
 }}});
 const dOpts={responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:12,family:'Noto Sans TC'},padding:14,boxWidth:12}}},cutout:'62%'};
-new Chart(document.getElementById('devicePrev'),{type:'doughnut',data:{labels:['手機 80.5%','電腦 19.5%'],datasets:[{data:[80.5,19.5],backgroundColor:[C.indigo,C.cyan],borderWidth:0,hoverOffset:6}]},options:dOpts});
-new Chart(document.getElementById('deviceCurr'),{type:'doughnut',data:{labels:['手機 82.7%','電腦 17.3%'],datasets:[{data:[82.7,17.3],backgroundColor:[C.curr,C.yellow],borderWidth:0,hoverOffset:6}]},options:dOpts});
+new Chart(document.getElementById('devicePrev'),{type:'doughnut',data:{labels:['手機 77.8%','電腦 22.2%'],datasets:[{data:[77.8,22.2],backgroundColor:[C.indigo,C.cyan],borderWidth:0,hoverOffset:6}]},options:dOpts});
+new Chart(document.getElementById('deviceCurr'),{type:'doughnut',data:{labels:['手機 74.7%','電腦 25.3%'],datasets:[{data:[74.7,25.3],backgroundColor:[C.curr,C.yellow],borderWidth:0,hoverOffset:6}]},options:dOpts});
 </script>
 </body>
 </html>
