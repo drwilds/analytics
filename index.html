@@ -94,10 +94,10 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
   <div class="wrap header-inner">
     <div class="header-eyebrow">Website Product Click Analytics · 雙週比較報告</div>
     <h1>Dr. Wilds 官網首頁<br>產品點擊偵測分析</h1>
-    <p class="header-sub">依時間正確切分,上週 vs 本週皆為完整7天資料,獨立計算後比較</p>
+    <p class="header-sub">依時間正確切分,上上週 vs 上週皆為完整7天資料,獨立計算後比較</p>
     <div class="period-badges">
-      <div class="badge badge-prev"><span class="badge-dot" style="background:var(--prev)"></span>上週:2026/07/27 – 08/02(642筆)</div>
-      <div class="badge badge-curr"><span class="badge-dot" style="background:#fff"></span>本週:2026/08/03 – 08/09(677筆)</div>
+      <div class="badge badge-prev"><span class="badge-dot" style="background:var(--prev)"></span>上上週:2026/07/27 – 08/02(642筆)</div>
+      <div class="badge badge-curr"><span class="badge-dot" style="background:#fff"></span>上週:2026/08/03 – 08/09(677筆)</div>
     </div>
   </div>
 </div>
@@ -109,25 +109,25 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
         <div class="kpi-label">總點擊筆數</div>
         <div class="kpi-val">677</div>
         <div class="kpi-compare"><span class="delta up">▲ +5.5%</span></div>
-        <div class="kpi-prev">上週:642</div>
+        <div class="kpi-prev">上上週:642</div>
       </div>
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--blue)"></div>
         <div class="kpi-label">手機使用率</div>
         <div class="kpi-val">80.9%</div>
         <div class="kpi-compare"><span class="delta up">▲ +0.2pt</span></div>
-        <div class="kpi-prev">上週:80.7%</div>
+        <div class="kpi-prev">上上週:80.7%</div>
       </div>
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--green)"></div>
         <div class="kpi-label">新訪客比例</div>
         <div class="kpi-val">49.9%</div>
         <div class="kpi-compare"><span class="delta up">▲ +5.5pt</span></div>
-        <div class="kpi-prev">上週:44.4%</div>
+        <div class="kpi-prev">上上週:44.4%</div>
       </div>
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--orange)"></div>
         <div class="kpi-label">海外流量佔比</div>
         <div class="kpi-val">13.6%</div>
         <div class="kpi-compare"><span class="delta up">▲ +2.9pt</span></div>
-        <div class="kpi-prev">上週:10.7%</div>
+        <div class="kpi-prev">上上週:10.7%</div>
       </div>
       <div class="kpi"><div class="kpi-accent" style="--ac:var(--curr)"></div>
         <div class="kpi-label">最熱門產品</div>
@@ -141,25 +141,25 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     <div class="eyebrow">產品點擊分析</div>
     <div class="card">
       <h3>各產品點擊次數 — 雙週比較</h3>
-      <p class="desc">本週(8/3–8/9,完整7天)vs 上週(7/27–8/2,完整7天);依本週點擊數排序</p>
+      <p class="desc">上週(8/3–8/9,完整7天)vs 上上週(7/27–8/2,完整7天);依上週點擊數排序</p>
       <div class="legend">
-        <div class="li"><div class="ld" style="background:var(--curr)"></div>本週</div>
-        <div class="li"><div class="ld" style="background:var(--prev)"></div>上週</div>
+        <div class="li"><div class="ld" style="background:var(--curr)"></div>上週</div>
+        <div class="li"><div class="ld" style="background:var(--prev)"></div>上上週</div>
       </div>
       <div class="ch340"><canvas id="clickCompare"></canvas></div>
     </div>
     <div class="card">
       <h3>各產品停留秒數中位數 — 雙週比較</h3>
-      <p class="desc">已排除空值與 &gt;1000 秒離群值;smallbag 本週停留大增,hydrobarrel2.0、accessories 亦顯著提升,lighttravel 明顯下滑</p>
+      <p class="desc">已排除空值與 &gt;1000 秒離群值;smallbag 上週停留大增,hydrobarrel2.0、accessories 亦顯著提升,lighttravel 明顯下滑</p>
       <div class="legend">
-        <div class="li"><div class="ld" style="background:var(--curr)"></div>本週停留秒數(中位數)</div>
-        <div class="li"><div class="ld" style="background:var(--prev)"></div>上週停留秒數(中位數)</div>
+        <div class="li"><div class="ld" style="background:var(--curr)"></div>上週停留秒數(中位數)</div>
+        <div class="li"><div class="ld" style="background:var(--prev)"></div>上上週停留秒數(中位數)</div>
       </div>
       <div class="ch300"><canvas id="stayCompare"></canvas></div>
     </div>
     <div class="card">
       <h3>產品詳細數據總覽(含週增率)</h3>
-      <p class="desc">依本週點擊次數排序 &nbsp;·&nbsp; 上週與本週皆為完整7天,週增率具參考價值 &nbsp;·&nbsp; <span style="color:var(--muted)">手機可左右滑動查看 →</span></p>
+      <p class="desc">依上週點擊次數排序 &nbsp;·&nbsp; 上上週與上週皆為完整7天,週增率具參考價值 &nbsp;·&nbsp; <span style="color:var(--muted)">手機可左右滑動查看 →</span></p>
       <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;">
         <table class="ptable" id="productTable" style="min-width:640px"></table>
       </div>
@@ -170,11 +170,11 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     <div class="grid2">
       <div class="card">
         <h3>流量來源 — 雙週比較</h3>
-        <p class="desc">各渠道帶入點擊次數;Instagram、YouTube 本週大幅走強,直接輸入流量下滑</p>
+        <p class="desc">各渠道帶入點擊次數;Instagram、YouTube 上週大幅走強,直接輸入流量下滑</p>
         <div class="ch300"><canvas id="sourceCompare"></canvas></div>
       </div>
       <div class="card">
-        <h3>各產品新訪客比例(本週)</h3>
+        <h3>各產品新訪客比例(上週)</h3>
         <p class="desc">紅色=新訪客,青色=熟客</p>
         <div class="legend">
           <div class="li"><div class="ld" style="background:var(--curr)"></div>新訪客</div>
@@ -203,19 +203,19 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     <div class="eyebrow">裝置比例比較</div>
     <div class="grid2">
       <div class="card">
-        <h3>上週裝置比例</h3>
+        <h3>上上週裝置比例</h3>
         <p class="desc">7/27–8/2,共 642 筆</p>
         <div class="ch200"><canvas id="devicePrev"></canvas></div>
       </div>
       <div class="card">
-        <h3>本週裝置比例</h3>
+        <h3>上週裝置比例</h3>
         <p class="desc">8/3–8/9,共 677 筆</p>
         <div class="ch200"><canvas id="deviceCurr"></canvas></div>
       </div>
     </div>
   </div>
   <div class="section">
-    <div class="eyebrow">本週數據洞察</div>
+    <div class="eyebrow">上週數據洞察</div>
     <div class="insight-grid">
       <div class="insight" style="--ac:var(--curr)">
         <h4>✅ 新訪客比例創近期新高,整體流量續揚</h4>
@@ -228,7 +228,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
       <div class="insight" style="--ac:var(--green)">
         <h4>🔄 backpack 超車奪冠,hydrobarrel2.0 微幅下滑</h4>
         <ul>
-          <li>backpack 點擊 136 → 142(+4.4%),擺脫並列局面,成為本週唯一龍頭</li>
+          <li>backpack 點擊 136 → 142(+4.4%),擺脫並列局面,成為上週唯一龍頭</li>
           <li>hydrobarrel2.0 點擊 136 → 126(-7.4%),是九項產品中少數下滑者之一</li>
           <li>建議檢視 hydrobarrel2.0 近期渠道與版位是否有變化</li>
         </ul>
@@ -275,7 +275,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
         <div class="reco-body">
           新訪客比例回升至49.9%(+5.5pt),創近期新高,與整體流量成長5.5%同步。
           <div class="copybox">
-            ✦ 檢視本週帶動新訪客成長的渠道(如 Instagram),評估是否可持續加碼投放<br>
+            ✦ 檢視上週帶動新訪客成長的渠道(如 Instagram),評估是否可持續加碼投放<br>
             ✦ 針對新訪客設計首購優惠或引導動線,把握轉換機會<br>
             ✦ 持續追蹤下週新訪客比例,確認是否為穩定趨勢而非單週波動
           </div>
@@ -335,7 +335,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
         <div class="reco-body">
           Instagram 暴增205.9%,YouTube 亦成長400%(基期低);直接輸入流量則下滑25.4%。
           <div class="copybox">
-            ✦ 拆解本週 Instagram 熱門貼文或廣告素材,評估是否可複製到 Facebook、YouTube<br>
+            ✦ 拆解上週 Instagram 熱門貼文或廣告素材,評估是否可複製到 Facebook、YouTube<br>
             ✦ 檢視直接輸入流量下滑是否與品牌搜尋量、口碑聲量變化有關<br>
             ✦ 持續追蹤站內導流(dr-wilds)穩健成長(+8.4%)的動能來源
           </div>
@@ -345,7 +345,7 @@ footer{background:var(--ink);color:rgba(255,255,255,0.3);text-align:center;paddi
     </div>
   </div>
 </div>
-<footer>DR. WILDS · 官網首頁點擊分析 · 上週 2026/07/27–08/02 | 本週 2026/08/03–08/09</footer>
+<footer>DR. WILDS · 官網首頁點擊分析 · 上上週 2026/07/27–08/02 | 上週 2026/08/03–08/09</footer>
 <script>
 const C={curr:'#FF4D6D',prev:'#ADB5BD',blue:'#3A86FF',cyan:'#00C9FF',green:'#06D6A0',
   yellow:'#FFD166',orange:'#FF6B35',purple:'#845EC2',pink:'#FF9EAA',teal:'#0CB0A9',
@@ -363,8 +363,8 @@ const currData={
   newPct:[51.4,42.1,68.9,40.0,50.9,56.9,36.7,46.3,66.7]
 };
 const thead=`<thead><tr>
-  <th>產品</th><th>本週點擊</th><th>上週點擊</th><th>週增率</th>
-  <th>本週停留(中位數)</th><th>停留變化</th><th>新訪客%</th><th>點擊佔比</th>
+  <th>產品</th><th>上週點擊</th><th>上上週點擊</th><th>週增率</th>
+  <th>上週停留(中位數)</th><th>停留變化</th><th>新訪客%</th><th>點擊佔比</th>
 </tr></thead>`;
 const total=currData.clicks.reduce((a,b)=>a+b,0);
 const tbody=products.map((p,i)=>{
@@ -388,15 +388,15 @@ const tbody=products.map((p,i)=>{
 }).join('');
 document.getElementById('productTable').innerHTML=thead+`<tbody>${tbody}</tbody>`;
 new Chart(document.getElementById('clickCompare'),{type:'bar',data:{labels:products,datasets:[
-  {label:'本週',data:currData.clicks,backgroundColor:MULTI,borderRadius:4,borderSkipped:false},
-  {label:'上週',data:prevData.clicks,backgroundColor:MULTI.map(c=>c+'55'),borderRadius:4,borderSkipped:false}
+  {label:'上週',data:currData.clicks,backgroundColor:MULTI,borderRadius:4,borderSkipped:false},
+  {label:'上上週',data:prevData.clicks,backgroundColor:MULTI.map(c=>c+'55'),borderRadius:4,borderSkipped:false}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{
   x:{ticks:{font:{size:11},maxRotation:30},grid:{display:false}},
   y:{ticks:{font:{size:11}},grid:{color:'rgba(0,0,0,0.06)'}}
 }}});
 new Chart(document.getElementById('stayCompare'),{type:'bar',data:{labels:products,datasets:[
-  {label:'本週(秒)',data:currData.stays,backgroundColor:MULTI,borderRadius:4},
-  {label:'上週(秒)',data:prevData.stays,backgroundColor:MULTI.map(c=>c+'55'),borderRadius:4}
+  {label:'上週(秒)',data:currData.stays,backgroundColor:MULTI,borderRadius:4},
+  {label:'上上週(秒)',data:prevData.stays,backgroundColor:MULTI.map(c=>c+'55'),borderRadius:4}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{
   x:{ticks:{font:{size:11},maxRotation:30},grid:{display:false}},
   y:{ticks:{font:{size:11},callback:v=>v+'s'},grid:{color:'rgba(0,0,0,0.06)'}}
@@ -404,8 +404,8 @@ new Chart(document.getElementById('stayCompare'),{type:'bar',data:{labels:produc
 const srcL=['Google自然搜尋','站內導流','直接輸入','Facebook','其他','YouTube','Instagram'];
 const srcC=[C.blue,C.green,C.yellow,C.indigo,C.prev,C.teal,C.pink];
 new Chart(document.getElementById('sourceCompare'),{type:'bar',data:{labels:srcL,datasets:[
-  {label:'本週',data:[247,220,85,42,26,5,52],backgroundColor:srcC,borderRadius:4},
-  {label:'上週',data:[236,203,114,47,24,1,17],backgroundColor:srcC.map(c=>c+'66'),borderRadius:4}
+  {label:'上週',data:[247,220,85,42,26,5,52],backgroundColor:srcC,borderRadius:4},
+  {label:'上上週',data:[236,203,114,47,24,1,17],backgroundColor:srcC.map(c=>c+'66'),borderRadius:4}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:12,family:'Noto Sans TC'},padding:12,boxWidth:12}}},scales:{
   x:{ticks:{font:{size:10},maxRotation:25},grid:{display:false}},
   y:{ticks:{font:{size:11}},grid:{color:'rgba(0,0,0,0.06)'}}
@@ -421,16 +421,16 @@ new Chart(document.getElementById('newVisitor'),{type:'bar',data:{labels:pShort,
 const ctryL=['香港','新加坡','日本','美國','馬來西亞','澳門','加拿大','英國'];
 const ctryC=[C.curr,C.blue,C.green,C.yellow,C.orange,C.purple,C.cyan,C.teal];
 new Chart(document.getElementById('countryChart'),{type:'bar',data:{labels:ctryL,datasets:[
-  {label:'本週',data:[32,12,11,9,6,5,3,3],backgroundColor:ctryC,borderRadius:4},
-  {label:'上週',data:[24,4,12,8,2,11,1,0],backgroundColor:ctryC.map(c=>c+'66'),borderRadius:4}
+  {label:'上週',data:[32,12,11,9,6,5,3,3],backgroundColor:ctryC,borderRadius:4},
+  {label:'上上週',data:[24,4,12,8,2,11,1,0],backgroundColor:ctryC.map(c=>c+'66'),borderRadius:4}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:10,boxWidth:10}}},scales:{
   x:{ticks:{font:{size:10}},grid:{display:false}},
   y:{ticks:{font:{size:11}},grid:{color:'rgba(0,0,0,0.06)'}}
 }}});
 const cityL=['台北','新北','高雄','台中','桃園','台南','中壢','汐止'];
 new Chart(document.getElementById('cityChart'),{type:'bar',data:{labels:cityL,datasets:[
-  {label:'本週',data:[209,73,70,68,33,23,17,7],backgroundColor:MULTI,borderRadius:4},
-  {label:'上週',data:[191,60,72,67,20,32,14,1],backgroundColor:MULTI.map(c=>c+'66'),borderRadius:4}
+  {label:'上週',data:[209,73,70,68,33,23,17,7],backgroundColor:MULTI,borderRadius:4},
+  {label:'上上週',data:[191,60,72,67,20,32,14,1],backgroundColor:MULTI.map(c=>c+'66'),borderRadius:4}
 ]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'bottom',labels:{font:{size:11},padding:10,boxWidth:10}}},scales:{
   x:{ticks:{font:{size:10}},grid:{display:false}},
   y:{ticks:{font:{size:11}},grid:{color:'rgba(0,0,0,0.06)'}}
